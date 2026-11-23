@@ -3,7 +3,7 @@ import { SettingsContext } from "../SettingsContext.js";
 
 function NoteCard({ id, title, body, onDelete }) {
   const [open, setOpen] = useState(false);
-  const { largeText } = useContext(SettingsContext);
+  const { largeText } = useContext(SettingsContext); 
 
   return (
     <div>
